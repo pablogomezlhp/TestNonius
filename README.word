@@ -1,9 +1,9 @@
-##Get Movie - API
+##MOVIE API - API
 ```
 Let's search your favorite movie!
 https://pablogomezlhp.github.io/2CodeProject/index.html
 
-This API site was set up for The Code Institute as my second milestone project (Interactive FrontEnd Development Milestone Project), which focuses on interactivity with Javascript (DOM) and jQuery, plus HTML5, CSS and Bootstrap 4. Enjoy!
+This API site was set up which focuses on interactivity with Javascript (DOM) and jQuery, plus HTML5, CSS and Bootstrap 4. Enjoy!
 UX
 ```
 The idea was to create a simple and easily accessible page. For this it was necessary to initially design for mobile devices so that we can discard what was not really necessary.
