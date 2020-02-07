@@ -1,7 +1,6 @@
 ##MOVIE API - API
 ```
-Let's search your favorite movie!
-https://pablogomezlhp.github.io/2CodeProject/index.html
+Let's search your favorite movie!   -------------- >>>       https://pablogomezlhp.github.io/TestNonius/
 
 This API site was set up which focuses on interactivity with Javascript (DOM) and jQuery, plus HTML5, CSS and Bootstrap 4. Enjoy!
 UX
@@ -22,6 +21,13 @@ As a user of this site, I would like to see details regarding the release year, 
 
 ##Desktop & Ipad
 ```
+<img width="1440" alt="Screenshot 2020-02-07 at 22 11 07" src="https://user-images.githubusercontent.com/51464234/74070435-f935ef80-49f8-11ea-99b2-5b49e0c5ea2d.png">
+
+
+<img width="1440" alt="Screenshot 2020-02-07 at 22 12 13" src="https://user-images.githubusercontent.com/51464234/74070521-25517080-49f9-11ea-9d6d-2661e166d2f2.png">
+
+
+<img width="1440" alt="Screenshot 2020-02-07 at 22 12 29" src="https://user-images.githubusercontent.com/51464234/74070553-3e5a2180-49f9-11ea-898d-99be5885e7ec.png">
 
 
 
@@ -29,6 +35,12 @@ As a user of this site, I would like to see details regarding the release year, 
 
 Mobile
 ```
+
+<img width="378" alt="Screenshot 2020-02-07 at 22 13 10" src="https://user-images.githubusercontent.com/51464234/74070581-592c9600-49f9-11ea-8809-53dcdf3fa047.png">
+
+<img width="378" alt="Screenshot 2020-02-07 at 22 13 20" src="https://user-images.githubusercontent.com/51464234/74070612-6d709300-49f9-11ea-870a-4fd00843c626.png">
+
+<img width="378" alt="Screenshot 2020-02-07 at 22 13 30" src="https://user-images.githubusercontent.com/51464234/74070665-89743480-49f9-11ea-8d75-b44421589eec.png">
 
 ###Features
 ```
@@ -38,8 +50,8 @@ After the movie is selected the site loads a new page that shows the original ti
 The page also provides an official website of the company responsible for the production of the film.
 
 ##Features left to implement
-This site was created to be my second project. I believe I was able to consume the API cleanly and efficiently, but one feature that can be added in the future is the availability of official trailers. trailers are not available in the TMDB API so it would be necessary to pull from another server.
-Technologies used in this project:
+The "Watch Later" user Mark coudn't be add.
+##Technologies used in this project:
 HTML5:
 https://en.wikipedia.org/wiki/HTML CSS3:
 https://en.wikipedia.org/wiki/Cascading_Style_Sheets Bootstrap 4:
@@ -69,12 +81,12 @@ Expected Behavior = Movie Site Page (If Existing) Will Load
 
 
 HTML validated via https://validator.w3.org/ - Pass CSS validated via https://jigsaw.w3.org/css-validator/ - Pass Deployment
-For this project, I have used Atom to deployed my project and Github Pages to host the application.
+For this project, I have used VSCode to deployed my project and Github Pages to host the application.
 Below are the steps I have taken to achieve this:
 Navigate to "settings"; Scroll down to "GitHub Pages" section (see image below); Selected "master branch" and deployed. Deployment
 ##Github Pages Link
 ```
-https://github.com/pablogomezlhp/TheOMDB_API
+https://github.com/pablogomezlhp/TestNonius
 Credits https://www.themoviedb.org/documentation/api
 Copyright 2019 - Pablo Patrick
 
