@@ -63,6 +63,29 @@ section {
     color: black;
 }
 
+#buttonIndex {
+    display: inline;
+    background-color: darkred;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-o
+}
+
+#buttonIndex:hover {
+    background-color: whitesmoke;
+    color: darkred;
+}
+
 div {
     text-align: center;
     padding: 10px;
@@ -97,6 +120,11 @@ h4 {
     margin-bottom: 8px;
     font-size: 30px;
     font-stretch: extra-condensed;
+}
+
+h5 {
+    font-size: 2rem;
+    margin-top: 3%;
 }
 
 @media(min-width:960px) {
@@ -134,6 +162,10 @@ h4 {
         color: black;
         border: none;
     }
+    #buttonIndex {
+        background-color: whitesmoke;
+        color: darkred;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -160,5 +192,9 @@ h4 {
         background-color: white;
         color: black;
         border: none;
+    }
+    #buttonIndex {
+        background-color: whitesmoke;
+        color: darkred;
     }
 }

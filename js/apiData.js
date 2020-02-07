@@ -15,7 +15,6 @@ $(document).ready(function() {
 
     });
 });
-
 //Acess Api and save the results;
 function getMovies(searchText) {
 
@@ -99,7 +98,9 @@ function getMovie() {
         //get acess to movie information;
         success: function(data) {
 
-            let movie = data;
+
+
+            var movie = data;
             let output = `
             <div class="row">
                 <div class="col-md-4">
@@ -126,16 +127,18 @@ function getMovie() {
                   </div>
                 <div>
                     <a class="navbar-brand" id="go2" href="index.html">Go Back</a>
-                    <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input" value="">Watch Later
-                    </label>
+                    
                 </div>
-            </div>
+               
+            </div>                                    
+           
              `;
             //print movie selected information
             $('#movie').html(output);
 
 
         }
+
     })
+
 }
